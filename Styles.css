@@ -1,0 +1,363 @@
+body {
+  background-color: hsl(211, 68%, 94%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  width: 60%;
+  margin: 4rem auto;
+  background-color: white;
+  border-radius: 10px;
+}
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.dotx,
+.doty,
+.dotz {
+  display: flex;
+  border-radius: 50%;
+  background-color: red;
+  height: 5px;
+  width: 5px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.notification {
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+header span {
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  padding: 5px;
+}
+.read {
+  margin-right: 1rem;
+  font-size: 20px;
+  color: hsl(219, 14%, 63%);
+}
+p {
+  font-weight: bold;
+}
+.mark {
+  display: flex;
+  background-color: hsl(211, 68%, 94%);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+.mark img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.mark p {
+  margin-left: 1rem;
+  font-size: 16px;
+}
+.gray {
+  display: flex;
+  background-color: hsl(211, 68%, 94%);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.gray img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.gray p {
+  margin-left: 1rem;
+}
+.jacob {
+  display: flex;
+  background-color: hsl(211, 68%, 94%);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.jacob img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.jacob p {
+  margin-left: 1rem;
+}
+.rizky {
+  display: flex;
+  margin-top: 1rem;
+}
+.rizky img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.rizky p {
+  margin-left: 1rem;
+}
+.message {
+  margin-left: 5rem;
+  border: 1px solid hsl(205, 33%, 90%);
+  padding: 1.5rem;
+  margin-top: 0px;
+  margin-right: 1rem;
+}
+.smith {
+  display: flex;
+  margin-top: 1rem;
+}
+.smith img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.smith p {
+  margin-left: 1rem;
+}
+.comment {
+  padding-left: 20rem;
+  padding-right: 1rem;
+}
+.nathan {
+  display: flex;
+  margin-top: 1rem;
+}
+.nathan img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.nathan p {
+  margin-left: 1rem;
+}
+.kim {
+  display: flex;
+  margin-top: 1rem;
+}
+.kim img {
+  height: 50px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+.kim p {
+  margin-left: 1rem;
+}
+span {
+  color: hsl(219, 14%, 63%);
+}
+.time {
+  color: hsl(219, 14%, 63%);
+}
+.hidden {
+  display: none;
+}
+@media (max-width: 900px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    max-width: 100vh;
+    margin: 0;
+    margin-right: 0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header {
+    margin-top: 1rem;
+  }
+  .mark {
+    padding: 1rem;
+  }
+  .mark p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .mark .time {
+    margin-top: -2rem;
+  }
+  .gray {
+    padding: 1rem;
+  }
+  .gray p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .gray .time {
+    margin-top: -2rem;
+  }
+  .jacob {
+    padding: 1rem;
+  }
+  .jacob p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .jacob .time {
+    margin-top: -2rem;
+  }
+  .rizky p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .rizky .time {
+    margin-bottom: 2rem;
+  }
+  .rizky {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  .comment {
+    padding-left: 10rem;
+    padding-right: 1rem;
+  }
+  .smith p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .smith .time {
+    margin-bottom: 1rem;
+  }
+  .smith {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  .nathan p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .nathan .time {
+    margin-bottom: 1rem;
+  }
+  .nathan {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  .kim p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .kim .time {
+    margin-bottom: 2rem;
+  }
+  .kim {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    max-width: 100vh;
+    height: 100%;
+    margin: 0;
+    margin-right: 0;
+    padding-top: 1rem;
+    margin-bottom: -3rem;
+    overflow: hidden;
+  }
+  .mark p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .mark .time {
+    margin-top: -2rem;
+  }
+  .gray p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .gray .time {
+    margin-top: -2rem;
+  }
+  .jacob p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .jacob .time {
+    margin-top: -2rem;
+  }
+  .rizky p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .rizky .time {
+    margin-bottom: 2rem;
+  }
+  .rizky {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  .comment {
+    padding-left: 0rem;
+    padding-right: 1rem;
+  }
+  .smith p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .smith .time {
+    margin-bottom: 1rem;
+  }
+  .smith {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  .nathan p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .nathan .time {
+    margin-bottom: 1rem;
+  }
+  .nathan {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  .kim p {
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+  .kim .time {
+    margin-bottom: 2rem;
+  }
+  .kim {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+}
